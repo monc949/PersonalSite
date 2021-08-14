@@ -470,6 +470,7 @@ p {
 .hero-content .list-social li {
   float: left;
   margin-right: 20px;
+  padding-top: 40px;
 }
 
 .hero-content .list-social li i {
@@ -495,9 +496,32 @@ p {
   font-size: 40px;
   text-align: left;
 }
+#period {
+  float: left;
+  color: rgb(138, 138, 138);
+  padding-top: 64px;
+  padding-left: 10px;
+  font-family: 'alarm_clockregular';
+  font-size: 30px;
+  text-align: left;
+}
+
+#date {
+  float: left;
+  color: rgb(138, 138, 138);
+  padding-top: 5px;
+  padding-right: 100px;
+  font-family: 'alarm_clockregular';
+  font-size: 50px;
+  text-align: left;
+}
 
 .clock-container {
-  width: 100%;
+  width: 30%;
+}
+
+.date-container {
+  width: 30%;
 }
 
 /*--------------------------------------------------------------

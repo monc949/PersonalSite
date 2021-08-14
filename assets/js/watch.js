@@ -1,15 +1,21 @@
 function Time() {
     // Creating object of the Date class
-        var date = new Date();
+        var currentdate = new Date();
+
+    // Get current date
+        var date = currentdate.getDate();
+
+    // Get current date
+        var day = currentdate.getDay();
 
     // Get current hour
-         var hour = date.getHours();
+        var hour = currentdate.getHours();
 
     // Get current minute
-        var minute = date.getMinutes();
+        var minute = currentdate.getMinutes();
 
     // Get current second
-        var second = date.getSeconds();
+        var second = currentdate.getSeconds();
 
     // Variable to store AM / PM
         var period = "";
@@ -30,15 +36,20 @@ function Time() {
         }
     }
 
-    // Updating hour, minute, and second
+        day = convertDay(day);
+
+
+    // Updating minute, and second
     // if they are less than 10
-        hour = update(hour);
         minute = update(minute);
         second = update(second);
 
     // Adding time elements to the div
         document.getElementById("digital-clock").innerText = hour + ":" + minute + ".";
         document.getElementById("second").innerText = second;
+        document.getElementById("period").innerText = period;
+        document.getElementById("date").innerText = day + " " + date;
+
     // Set Timer to 1 sec (1000 ms)
         setTimeout(Time, 1000);
 
@@ -47,6 +58,39 @@ function Time() {
 
     // Function to update time elements if they are less than 10
     // Append 0 before time elements if they are less than 10
+
+
+   function convertDay(n) {
+       let dayName = "";
+        switch (n) {
+            case 1:
+                    dayName = "Mo"
+                break;
+            case 2:
+                    dayName = "Tu"
+                break;
+            case 3:
+                    dayName = "We"
+                break;
+            case 4:
+                    dayName = "Th"
+                break;
+            case 5:
+                    dayName = "Fr"
+                break;
+            case 6:
+                    dayName = "Sa"
+                break;
+            case 7:
+                    dayName = "Su"
+                break;
+        
+            default:
+                break;
+        }
+        return dayName;
+   }
+
 
    function update(t) {
         if (t < 10) {
@@ -57,3 +101,4 @@ function Time() {
         }
     }
    Time();
+
