@@ -35,7 +35,6 @@ function Time() {
             hour = hour - 12;
         }
     }
-
         day = convertDay(day);
 
 
@@ -63,6 +62,9 @@ function Time() {
    function convertDay(n) {
        let dayName = "";
         switch (n) {
+            case 0:
+                    dayName = "Su"
+                break;
             case 1:
                     dayName = "Mo"
                 break;
@@ -81,9 +83,7 @@ function Time() {
             case 6:
                     dayName = "Sa"
                 break;
-            case 7:
-                    dayName = "Su"
-                break;
+
         
             default:
                 break;
