@@ -484,6 +484,8 @@ p {
   border-radius: 20px;
   padding-top: 40px;
   padding-bottom: 20px;
+  padding-left: 20px;
+  width: 290px;
 }
 
 #digital-clock {
@@ -531,10 +533,10 @@ p {
 }
 
 .down{
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
   animation: opacity 3s infinite;
-  left: 50%;
+  left: 49%;
   opacity: .25;
   color: white;
 }
@@ -1196,9 +1198,11 @@ blockquote {
 /** Width between 1200x to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
+ 
 /** Width between 992px to 1199px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
+
 /** Width between 768px to 991px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
@@ -1228,6 +1232,123 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
+
+  #hero {
+    background: linear-gradient(70deg, rgba(2,0,36,1) 63%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    width: 100%;
+  }
+  
+  #hero .hero-content {
+    height: 100vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hero-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Orbitron" , sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .hero-content .list-social li {
+    float: left;
+    margin-right: 20px;
+    padding-top: 40px;
+  }
+  
+  .hero-content .list-social li i {
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  /* Watch */
+  
+  .watch-container {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 290px;
+  }
+  
+  #digital-clock {
+    float: left;
+    color: #fff;
+    font-family: 'alarm_clockregular';
+    padding: 20px 20px 20px 0px;
+    font-size: 64px;
+    text-align: left;
+  }
+  
+      #second {
+        float: left;
+        color: rgb(138, 138, 138);
+        padding-top: 25px;
+        font-family: 'alarm_clockregular';
+        font-size: 40px;
+        text-align: left;
+      }
+      #period {
+        float: left;
+        color: rgb(138, 138, 138);
+        padding-top: 12px;
+        padding-left: 10px;
+        font-family: 'alarm_clockregular';
+        font-size: 20px;
+        text-align: left;
+      }
+  
+  #date {
+    color: rgb(138, 138, 138);
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: 'alarm_clockregular';
+    font-size: 50px;
+    text-align: left;
+  }
+  
+  
+  
+  
+  /*Indicator*/
+  .indicator{
+    position: relative;
+  }
+  
+  .down{
+    font-size: 30px;
+    position: absolute;
+    animation: opacity 3s infinite;
+    left: 48%;
+    opacity: .25;
+    color: white;
+  }
+  
+  .down:nth-child(2){
+    top: 15px;
+    animation-delay: .25s;
+  }
+
+  
+
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
@@ -1298,6 +1419,16 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
+
+  /* Hero */
+  .hero-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -1438,6 +1569,99 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
+
+  /* Hero */
+  .hero-content {
+    background: linear-gradient(70deg, rgba(2,0,36,1) 50%, rgba(0,212,255,1) 100%);
+  }
+
+
+  .hero-content h1 {
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+
+  .hero-content p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .hero-content .list-social {
+    position: relative;
+    left: 38.5%;
+  }
+
+  .hero-content .list-social li {
+    margin-right: 10px;
+    padding-top: 30px;
+  }
+  
+  .hero-content .list-social li i {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  /* Watch */
+  
+  .watch-container {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    width: 220px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+  }
+  
+  #digital-clock {
+    float: left;
+    padding: 10px 10px 10px 0px;
+    font-size: 50px;
+  }
+  
+      #second {
+        float: left;
+        padding-top: 13px;
+        font-size: 32px;
+      }
+      #period {
+        float: left;
+        padding-top: 12px;
+        padding-left: 5px;
+        font-size: 17px;
+      }
+  
+  #date {
+    color: rgb(138, 138, 138);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  /*Indicator*/
+    .indicator{
+      position: relative;
+    }
+
+    .down{
+      font-size: 22px;
+      left: 47%;
+    }
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -1507,6 +1731,99 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
+
+  /* Hero */
+  .hero-content {
+    background: linear-gradient(70deg, rgba(2,0,36,1) 50%, rgba(0,212,255,1) 100%);
+  }
+
+
+  .hero-content h1 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+
+  .hero-content p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .hero-content .list-social {
+    position: relative;
+    left: 26.6%;
+  }
+
+  .hero-content .list-social li {
+    margin-right: 40px;
+    padding-top: 30px;
+  }
+  
+  .hero-content .list-social li i {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  /* Watch */
+  
+  .watch-container {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+  }
+  
+  #digital-clock {
+    float: left;
+    padding: 10px 10px 10px 0px;
+    font-size: 34px;
+  }
+  
+      #second {
+        float: left;
+        padding-top: 10px;
+        font-size: 30px;
+      }
+      #period {
+        float: left;
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 17px;
+      }
+  
+  #date {
+    color: rgb(138, 138, 138);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  /*Indicator*/
+    .indicator{
+      position: relative;
+    }
+
+    .down{
+      font-size: 20px;
+      left: 47%;
+    }
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
