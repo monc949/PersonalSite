@@ -492,7 +492,7 @@ p {
   float: left;
   color: #fff;
   font-family: 'alarm_clockregular';
-  padding: 20px 20px 20px 0px;
+  padding: 20px 0px 10px 0px;
   font-size: 64px;
   text-align: left;
 }
@@ -500,29 +500,31 @@ p {
     #second {
       float: left;
       color: rgb(138, 138, 138);
-      padding-top: 25px;
+      padding-top: 32px;
       font-family: 'alarm_clockregular';
-      font-size: 40px;
+      font-size: 30px;
       text-align: left;
     }
     #period {
       float: left;
       color: rgb(138, 138, 138);
-      padding-top: 12px;
+      padding-top: 36px;
       padding-left: 10px;
       font-family: 'alarm_clockregular';
       font-size: 20px;
       text-align: left;
     }
 
+
 #date {
   color: rgb(138, 138, 138);
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-left: 90px;
   font-family: 'alarm_clockregular';
   font-size: 50px;
   text-align: left;
 }
+
 
 
 

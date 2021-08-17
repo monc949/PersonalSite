@@ -44,7 +44,7 @@ function Time() {
         second = update(second);
 
     // Adding time elements to the div
-        document.getElementById("digital-clock").innerText = hour + ":" + minute + ".";
+        document.getElementById("digital-clock").innerText = hour + ":" + minute;
         document.getElementById("second").innerText = second;
         document.getElementById("period").innerText = period;
         document.getElementById("date").innerText = day + " " + date;
