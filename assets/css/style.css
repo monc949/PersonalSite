@@ -482,11 +482,12 @@ p {
 .watch-container {
   border: 1px solid #fff;
   border-radius: 20px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
   width: 290px;
 }
+
 
 #digital-clock {
   float: left;
@@ -499,7 +500,7 @@ p {
 
     #second {
       float: left;
-      color: rgb(138, 138, 138);
+      color: rgb(179, 179, 179);
       padding-top: 32px;
       font-family: 'alarm_clockregular';
       font-size: 30px;
@@ -507,7 +508,7 @@ p {
     }
     #period {
       float: left;
-      color: rgb(138, 138, 138);
+      color: rgb(179, 179, 179);
       padding-top: 36px;
       padding-left: 10px;
       font-family: 'alarm_clockregular';
