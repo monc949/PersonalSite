@@ -12,6 +12,7 @@
 }
 
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -242,6 +243,11 @@ p {
 
 .navbar li {
   position: relative;
+  padding: 10px;
+}
+
+.change-theme {
+  color: black !important;
 }
 
 .navbar a, .navbar a:focus {
