@@ -488,12 +488,8 @@ p {
 .watch-container {
   border: 1px solid #fff;
   border-radius: 20px;
-  padding: 25px 10px;
-  width: 250px;
+  width: 300px;
 }
-
-
-
 
 #digital-clock {
   float: left;
@@ -514,13 +510,12 @@ p {
     }
 
 
-
-
 .date-container i {
   padding: 20px 0px 20px 20px;
 }
 
 #date {
+  float: left;
   color: rgb(138, 138, 138);
   padding-bottom: 20px;
   padding-left: 30px;
@@ -1012,9 +1007,171 @@ p {
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
  
+ 
 /** Width between 992px to 1199px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
+ @media (min-width: 992px) and (max-width: 1199px) {
+  /* Navbar */
+  nav {
+    padding: 10px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+
+  #hero {
+    background: linear-gradient(70deg, rgba(2,0,36,1) 63%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    width: 100%;
+  }
+  
+  #hero .hero-content {
+    height: 100vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hero-content h1 {
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Orbitron" , sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .hero-content .list-social li {
+    float: left;
+    margin-right: 20px;
+    padding-top: 40px;
+  }
+  
+  .hero-content .list-social li i {
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  /* Watch */
+  
+  .watch-container {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 290px;
+  }
+  
+  #digital-clock {
+    float: left;
+    color: #fff;
+    font-family: 'alarm_clockregular';
+    padding: 20px 20px 20px 0px;
+    font-size: 64px;
+    text-align: left;
+  }
+  
+      #second {
+        float: left;
+        color: rgb(138, 138, 138);
+        padding-top: 25px;
+        font-family: 'alarm_clockregular';
+        font-size: 40px;
+        text-align: left;
+      }
+      #period {
+        float: left;
+        color: rgb(138, 138, 138);
+        padding-top: 12px;
+        padding-left: 10px;
+        font-family: 'alarm_clockregular';
+        font-size: 20px;
+        text-align: left;
+      }
+  
+  #date {
+    color: rgb(138, 138, 138);
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: 'alarm_clockregular';
+    font-size: 50px;
+    text-align: left;
+  }
+  
+  
+
+  /* About */
+  .head-info .header-content .cmaster h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
 
 /** Width between 768px to 991px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1407,7 +1564,7 @@ p {
     padding-top: 24px;
     padding-bottom: 12px;
     padding-left: 20px;
-    width: 220px;
+    width: 250px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -1569,7 +1726,7 @@ p {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-left: 10px;
-    width: 200px;
+    width: 220px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
