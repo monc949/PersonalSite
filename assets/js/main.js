@@ -169,7 +169,7 @@
   }
 
   /**
-   * Testimonials slider
+   * Skills slider
    */
   new Swiper('.skills-slider', {
     speed: 600,

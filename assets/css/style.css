@@ -759,7 +759,7 @@ p {
   position: absolute;
   right: 40px;
   font-size: 24px;
-  top: calc(50% - 18px);
+  top: calc(50% - 36px);
   color: rgba(0,212,255,1);
 }
 
