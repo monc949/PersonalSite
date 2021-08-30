@@ -46,7 +46,7 @@ h4 {
 }
 
 a {
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -65,12 +65,12 @@ p {
 }
 
 ::-moz-selection {
-  background: rgba(0,212,255,1);
+  background: rgba(0, 152, 182);
   color: #fff;
 }
 
 ::selection {
-  background: rgba(0,212,255,1);
+  background: rgba(0, 152, 182);
   color: #fff;
 }
 
@@ -139,7 +139,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: rgba(0,212,255,1);
+  background: rgba(0, 152, 182);
 }
 
 .mb-30 {
@@ -160,7 +160,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgba(0,212,255,1);
+  background: rgba(0, 152, 182);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -270,7 +270,7 @@ p {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
 }
 
 .navbar .dropdown ul {
@@ -302,7 +302,7 @@ p {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
 }
 
 .navbar .dropdown:hover > ul {
@@ -396,7 +396,7 @@ p {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
 }
 
 .navbar-mobile .getstarted {
@@ -428,7 +428,7 @@ p {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -612,7 +612,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid rgba(0,212,255,1);
+  border: 20px solid rgba(0, 152, 182);
 
 }
 
@@ -666,7 +666,7 @@ p {
 
 .skills-block i {
   font-size: 44px;
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
   line-height: 44px;
 }
 
@@ -680,11 +680,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid rgba(0,212,255,1);
+  border: 1px solid rgba(0, 152, 182);
 }
 
 .skills-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgba(0,212,255,1);
+  background-color: rgba(0, 152, 182);
 }
 
 /*--------------------------------------------------------------
@@ -718,7 +718,7 @@ p {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -760,7 +760,7 @@ p {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 36px);
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
@@ -797,11 +797,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid rgba(0,212,255,1);
+  border: 1px solid rgba(0, 152, 182);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgba(0,212,255,1);
+  background-color: rgba(0, 152, 182);
 }
 
 .portfolio-details .portfolio-info {
@@ -886,7 +886,7 @@ p {
 }
 
 .btn-send {
-  background-color: rgba(0,212,255,1);
+  background-color: rgba(0, 152, 182);
 }
 
 .php-email-form .error-message {
@@ -989,7 +989,7 @@ p {
 }
 
 #footer .socials-media ul li a:hover {
-  color: rgba(0,212,255,1);
+  color: rgba(0, 152, 182);
   transition: all 0.5s ease-in-out 0s;
 }
 
