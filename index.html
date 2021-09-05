@@ -1,358 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" /> 
+    <title>Ciarán Maye</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Ciarán Maye</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <link href="assets/css/style.css" rel="stylesheet">
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo"><a href="index.html">Ciarán</a></h1>
 
-</head>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">Ciarán</a></h1>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="home">
-
-    <div class="container">
+    <!-- ======= Hero Section ======= -->
+    <div id="hero" class="home">
+      <div class="container">
         <div class="hero-content">
-
-            <h1>I'<span class="typed" data-typed-items="m Ciarán Maye"></span></h1>
-            <p>Developer, Designer, <br>Casio Watch Collector</p>
-
+          <h1>
+            I'<span class="typed" data-typed-items="m Ciarán Maye"></span>
+          </h1>
+          <p>Developer, Designer, <br />Casio Watch Collector</p>
 
           <div class="row">
             <div class="watch-container col-lg-12">
-                <div class="date-container">
-                  <div id="period"></div>
-                  <div class="bell-container">
-                    <i class="bi bi-bell"></i>
+              <div class="date-container">
+                <div id="period"></div>
+                <div class="bell-container">
+                  <i class="bi bi-bell"></i>
+                </div>
+                <div id="date"></div>
+              </div>
+              <div class="clock-container">
+                <div id="digital-clock"></div>
+                <div id="second"></div>
+              </div>
+            </div>
+          </div>
+
+          <ul class="list-unstyled list-social">
+            <li>
+              <a target="_blank" href="https://github.com/monc949"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/ciaran-maye-69ba1b1a0/"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/ciaranm949/"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <div id="about" class="paddsection">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-4">
+              <div class="div-img-bg">
+                <div class="about-img">
+                  <img
+                    src="assets/img/me2.jpg"
+                    class="img-responsive about-photo"
+                    alt="me"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="about-descr">
+                <p class="p-heading">
+                  Hi! I'm Ciaran. I'm a Developer based in the south east of
+                  Ireland.
+                </p>
+                <p class="separator">
+                  Between books, music, fitness, technology, movies and of
+                  course, Casio Watches, I cast a wide net in terms of
+                  interests. <br /><br />
+
+                  The same can be said for my work. I am proficient in both
+                  front and back end technologies. I pride myself in writing
+                  clean and organised code. While I place my focus predominantly
+                  in programming, I also have a strong base in Linux, Apache Web
+                  Server and Adobe Illustrator. <br /><br />
+
+                  I am currently studying for a Bachelor of Science (Honours) in
+                  Software Development in the Institute of Technology Carlow. I
+                  am also the Co-Founder <br />
+                  of
+                  <a target="_blank" href="https://teq-space.com">TEQ-Space</a>,
+                  a web design studio that caters for small businesses and
+                  freelancers. <br /><br />
+                  I am constantly looking to improve and add to my skillset and
+                  grow as a developer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Section -->
+
+      <!-- ======= Skills Section ======= -->
+      <div id="skills">
+        <div class="container">
+          <div
+            class="skills-slider swiper-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="skills-block">
+                  <i class="bi bi-laptop"></i>
+                  <span>Front-End</span>
+                  <p class="separator">
+                    HTML5, CSS3, Javascript ES6, React Native
+                  </p>
+                </div>
+              </div>
+              <!-- End skill item -->
+
+              <div class="swiper-slide">
+                <div class="skills-block">
+                  <i class="bi bi-server"></i>
+                  <span>Back-End</span>
+                  <p class="separator">Java, C++</p>
+                </div>
+              </div>
+              <!-- End skill item -->
+              <div class="swiper-slide">
+                <div class="skills-block">
+                  <i class="bi bi-server"></i>
+                  <span>Databases</span>
+                  <p class="separator">SQL</p>
+                </div>
+              </div>
+              <!-- End skill item -->
+
+              <div class="swiper-slide">
+                <div class="skills-block">
+                  <i class="bi bi-brush"></i>
+                  <span>Tools</span>
+                  <p class="separator">
+                    Visual Studio Code, IntelliJ, Trello, Git, Illustrator,
+                    Photoshop, FL Studio
+                  </p>
+                </div>
+              </div>
+              <!-- End skill item -->
+
+              <div class="swiper-slide">
+                <div class="skills-block">
+                  <i class="bi bi-hdd-rack"></i>
+                  <span>OS/Server</span>
+                  <p class="separator">
+                    Windows, Debian Linux, Apache Web Server
+                  </p>
+                </div>
+              </div>
+              <!-- End skill item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End Skills Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <div id="portfolio" class="paddsection">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>Featured Work</h2>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-desktop">Desktop</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Start -->
+          <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img
+                src="assets/img/portfolio/t-smart-portfolio-img-small.png"
+                class="img-fluid"
+                alt="T-Smart"
+              />
+              <div class="portfolio-info">
+                <h4>T-Smart</h4>
+                <p>
+                  Website for "T-Smart", a student training course based in
+                  Kilkenny, Ireland
+                </p>
+                <a
+                  href="assets/img/portfolio/t-smart-portfolio-img.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://t-smart.ie"
+                  class="details-link"
+                  title="T-Smart"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+            <!-- End -->
+
+            <!-- Start -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-desktop">
+              <img
+                src="assets/img/portfolio/jltrack-portfolio-img-small.jpg"
+                class="img-fluid"
+                alt="JLTrack"
+              />
+              <div class="portfolio-info">
+                <h4>JLTrack</h4>
+                <p>
+                  Desktop Application written with Java to track league
+                  standings for the ITC Pool Society <br />**WIP**
+                </p>
+                <a
+                  href="assets/img/portfolio/jltrack-portfolio-img.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://github.com/monc949/JLTrack"
+                  class="details-link"
+                  title="GitHub"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+            <!-- End -->
+
+            <!-- Start -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img
+                src="assets/img/portfolio/ras-portfolio-img-small.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>RAS Commodities</h4>
+                <p>Web</p>
+                <a
+                  href="assets/img/portfolio/ras-portfolio-img.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://rascommodities.com/"
+                  class="details-link"
+                  title="RAS Commodities"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
+            <!-- End -->
+          </div>
+        </div>
+      </div>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <div id="contact" class="paddsection">
+        <div class="container">
+          <div class="contact-block1">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="contact-contact">
+                  <h2 class="mb-30">GET IN TOUCH</h2>
+
+                  <ul class="contact-details">
+                    <li>
+                      <span><a href="tel:00353871044880">0871044880</a></span>
+                    </li>
+                    <li>
+                      <span
+                        ><a href="mailto:ciaranmaye8@gmail.com"
+                          >Ciaranmaye8@gmail.com</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+
+                  <ul class="contact-details list-social-contact">
+                    <a target="_blank" href="https://github.com/monc949"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/ciaran-maye-69ba1b1a0/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/ciaranm949/"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <form
+                  action="forms/contact.php"
+                  method="post"
+                  role="form"
+                  class="php-email-form"
+                >
+                  <div class="row gy-3">
+                    <div class="col-lg-6">
+                      <div class="form-group contact-block1">
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your Name"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          placeholder="Your Email"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="subject"
+                          id="subject"
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          name="message"
+                          placeholder="Message"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">
+                        Your message has been sent. Thank you!
+                      </div>
+                    </div>
+
+                    <div class="mt-0">
+                      <input
+                        type="submit"
+                        class="btn btn-default btn-send"
+                        value="Send message"
+                      />
+                    </div>
                   </div>
-                  <div id="date"></div>
-                </div>
-                <div class="clock-container">
-                      <div id="digital-clock"></div>
-                      <div id="second"></div>
-                </div>
-            </div>
-          </div>
-
-
-
-            <ul class="list-unstyled list-social">
-              <li><a target="_blank" href="https://github.com/monc949"><i class="bi bi-github"></i></a></li>
-              <li><a target="_blank" href="https://www.linkedin.com/in/ciaran-maye-69ba1b1a0/"><i class="bi bi-linkedin"></i></a></li>
-              <li><a target="_blank" href="https://www.instagram.com/ciaranm949/"><i class="bi bi-instagram"></i></a></li>
-            </ul>
-
-        </div>
-    </div>
-  </div><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <div id="about" class="paddsection">
-      <div class="container">
-        <div class="row justify-content-between">
-
-          <div class="col-lg-4 ">
-            <div class="div-img-bg">
-              <div class="about-img">
-                <img src="assets/img/me2.jpg" class="img-responsive about-photo" alt="me">
+                </form>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-7">
-            <div class="about-descr">
-
-              <p class="p-heading">Hi! I'm Ciaran. I'm a Developer based in the south east of Ireland.
-              </p>
-              <p class="separator">Between books, music, fitness, technology, movies and of course, Casio Watches, I cast a wide net in terms of interests. <br><br>
-
-                The same can be said for my work. I am proficient in both front and back end technologies. I pride myself in writing clean and organised code.
-                While I place my focus predominantly in programming, I also have a strong base in Linux, Apache Web Server and Adobe Illustrator. <br><br>
-
-                I am currently studying for a Bachelor of Science (Honours) in Software Development in the
-                Institute of Technology Carlow. I am also the Co-Founder <br> of <a target="_blank" href="https://teq-space.com">TEQ-Space</a>, a web design studio that caters for small businesses and freelancers. <br><br>
-                I am constantly looking to improve and add to my skillset and grow as a developer.</p>
-
-            </div>
-
           </div>
         </div>
       </div>
-    </div><!-- End About Section -->
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-    <!-- ======= Skills Section ======= -->
-    <div id="skills">
+    <!-- ======= Footer ======= -->
+    <div id="footer" class="text-center">
       <div class="container">
-
-        <div class="skills-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="skills-block">
-                <i class="bi bi-laptop"></i>
-                <span>Front-End</span>
-                <p class="separator">HTML5, CSS3, Javascript ES6, React Native</p>
-              </div>
-            </div><!-- End skill item -->
-
-            <div class="swiper-slide">
-              <div class="skills-block">
-                <i class="bi bi-server"></i>
-                <span>Back-End</span>
-                <p class="separator">Java, C++</p>
-              </div>
-
-            </div><!-- End skill item -->
-            <div class="swiper-slide">
-              <div class="skills-block">
-                <i class="bi bi-server"></i>
-                <span>Databases</span>
-                <p class="separator">SQL</p>
-              </div>
-            </div><!-- End skill item -->
-
-            <div class="swiper-slide">
-              <div class="skills-block">
-                <i class="bi bi-brush"></i>
-                <span>Tools</span>
-                <p class="separator">Visual Studio Code, IntelliJ, Trello, Git, Illustrator, Photoshop, FL Studio</p>
-              </div>
-            </div><!-- End skill item -->
-
-            <div class="swiper-slide">
-              <div class="skills-block">
-                <i class="bi bi-hdd-rack"></i>
-                <span>OS/Server</span>
-                <p class="separator">Windows, Debian Linux, Apache Web Server</p>
-              </div>
-            </div><!-- End skill item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
+        <div class="socials-media text-center">
+          <ul class="list-unstyled list-social">
+            <li>
+              <a target="_blank" href="https://github.com/monc949"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/ciaran-maye-69ba1b1a0/"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/ciaranm949/"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+          </ul>
         </div>
 
-      </div>
-
-    </div><!-- End Skills Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <div id="portfolio" class="paddsection">
-
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>My Portfolio</h2>
-        </div>
-      </div>
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-desktop">Desktop</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/t-smart-portfolio-img-small.png" class="img-fluid" alt="T-Smart">
-            <div class="portfolio-info">
-              <h4>T-Smart</h4>
-              <p>Website for "T-Smart", a student training course based in Kilkenny, Ireland</p>
-              <a href="assets/img/portfolio/t-smart-portfolio-img.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
-              <a href="https://t-smart.ie" class="details-link" title="T-Smart"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-desktop">
-            <img src="assets/img/portfolio/jltrack-portfolio-img-small.png.jpg" class="img-fluid" alt="JLTrack">
-            <div class="portfolio-info">
-              <h4>JLTrack</h4>
-              <p>Desktop Application written with Java to track league standings for the ITC Pool Society <br>**WIP**</p>
-              <a href="https://picsum.photos/600/400?random=1" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="JLTrack"><i class="bx bx-plus"></i></a>
-              <a href="https://github.com/monc949/JLTrack" class="details-link" title="GitHub"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="https://picsum.photos/600/400?random=" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="https://picsum.photos/600/400" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div><!-- End Portfolio Section -->
-
-    
-
- <!-- ======= Contact Section ======= -->
- <div id="contact" class="paddsection">
-  <div class="container">
-    <div class="contact-block1">
-      <div class="row">
-
-        <div class="col-lg-6">
-          <div class="contact-contact">
-
-            <h2 class="mb-30">GET IN TOUCH</h2>
-
-            <ul class="contact-details">
-              <li><span><a href="tel:00353871044880">0871044880</a></span></li>
-              <li><span><a href="mailto:ciaranmaye8@gmail.com">Ciaranmaye8@gmail.com</a></span></li>
-            </ul>
-
-            <ul class="contact-details list-social-contact">
-              <a target="_blank" href="https://github.com/monc949"><i class="bi bi-github"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/in/ciaran-maye-69ba1b1a0/"><i class="bi bi-linkedin"></i></a>
-              <a target="_blank" href="https://www.instagram.com/ciaranm949/"><i class="bi bi-instagram"></i></a>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row gy-3">
-
-              <div class="col-lg-6">
-                <div class="form-group contact-block1">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-              </div>
-
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                </div>
-              </div>
-
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <textarea class="form-control" name="message" placeholder="Message" required></textarea>
-                </div>
-              </div>
-
-              <div class="col-lg-12">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-
-              <div class="mt-0">
-                <input type="submit" class="btn btn-default btn-send" value="Send message">
-              </div>
-
-            </div>
-          </form>
-        </div>
+        <p>&copy; Copyrights Ciarán Maye. All rights reserved.</p>
       </div>
     </div>
-  </div>
-</div><!-- End Contact Section -->
+    <!-- End Footer -->
 
-  </main><!-- End #main -->
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- ======= Footer ======= -->
-  <div id="footer" class="text-center">
-    <div class="container">
-      <div class="socials-media text-center">
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
 
-        <ul class="list-unstyled list-social">
-          <li><a target="_blank" href="https://github.com/monc949"><i class="bi bi-github"></i></a></li>
-          <li><a target="_blank" href="https://www.linkedin.com/in/ciaran-maye-69ba1b1a0/"><i class="bi bi-linkedin"></i></a></li>
-          <li><a target="_blank" href="https://www.instagram.com/ciaranm949/"><i class="bi bi-instagram"></i></a></li>
-        </ul>
-
-      </div>
-
-      <p>&copy; Copyrights Ciarán Maye. All rights reserved.</p>
-
-      
-
-    </div>
-  </div><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/watch.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/watch.js"></script>
+  </body>
 </html>
