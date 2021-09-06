@@ -3,15 +3,12 @@
 --------------------------------------------------------------*/
 
 @font-face {
-  font-family: 'alarm_clockregular';
-  src: url('/assets/fonts/alarm_clock-webfont.woff2') format('woff2'),
-       url('/assets/fonts/alarm_clock-webfont.woff') format('woff');
+  font-family: "alarm_clockregular";
+  src: url("/assets/fonts/alarm_clock-webfont.woff2") format("woff2"),
+    url("/assets/fonts/alarm_clock-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
-
-
 
 /*--------------------------------------------------------------
 # General
@@ -19,7 +16,7 @@
 body {
   background: #ffffff;
   color: #ffffff;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -30,7 +27,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -59,7 +61,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 20px;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #999999;
   line-height: 28px;
 }
@@ -86,7 +88,8 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -195,7 +198,8 @@ p {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
 }
 
-#header.header-scrolled, #header.header-inner-pages {
+#header.header-scrolled,
+#header.header-inner-pages {
   top: 0;
 }
 
@@ -206,7 +210,7 @@ p {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 #header .logo a {
@@ -250,7 +254,8 @@ p {
   color: black !important;
 }
 
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -263,13 +268,17 @@ p {
   transition: 0.3s;
 }
 
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: rgba(0, 152, 182);
 }
 
@@ -301,7 +310,9 @@ p {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: rgba(0, 152, 182);
 }
 
@@ -395,7 +406,9 @@ p {
   color: #4b4a4a;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: rgba(0, 152, 182);
 }
 
@@ -427,7 +440,9 @@ p {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: rgba(0, 152, 182);
 }
 
@@ -439,7 +454,11 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 63%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 63%,
+    rgba(0, 212, 255, 1) 100%
+  );
   height: 100vh;
   width: 100%;
 }
@@ -466,7 +485,7 @@ p {
   letter-spacing: 3px;
   margin-top: 10px;
   margin-bottom: 30px;
-  font-family: "Orbitron" , sans-serif;
+  font-family: "Orbitron", sans-serif;
   text-transform: capitalize;
   color: #fff;
   font-weight: 500;
@@ -496,21 +515,20 @@ p {
 #digital-clock {
   float: left;
   color: #fff;
-  font-family: 'alarm_clockregular';
+  font-family: "alarm_clockregular";
   padding: 20px 0px 10px 20px;
   font-size: 64px;
   text-align: center;
 }
 
-    #second {
-      float: left;
-      color: rgb(179, 179, 179);
-      padding-top: 32px;
-      font-family: 'alarm_clockregular';
-      font-size: 30px;
-      text-align: center;
-    }
-
+#second {
+  float: left;
+  color: rgb(179, 179, 179);
+  padding-top: 32px;
+  font-family: "alarm_clockregular";
+  font-size: 30px;
+  text-align: center;
+}
 
 .date-container i {
   padding: 20px 0px 20px 20px;
@@ -521,7 +539,7 @@ p {
   color: rgb(138, 138, 138);
   padding-bottom: 20px;
   padding-left: 30px;
-  font-family: 'alarm_clockregular';
+  font-family: "alarm_clockregular";
   font-size: 35px;
   text-align: center;
 }
@@ -535,11 +553,10 @@ p {
   color: rgb(179, 179, 179);
   padding-top: 36px;
   padding-left: 10px;
-  font-family: 'alarm_clockregular';
+  font-family: "alarm_clockregular";
   font-size: 20px;
   text-align: center;
 }
-
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -613,7 +630,6 @@ p {
 #about .div-img-bg {
   padding-bottom: 30px;
   border: 20px solid rgba(0, 152, 182);
-
 }
 
 #about .div-img-bg .about-img img {
@@ -627,7 +643,7 @@ p {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 28px;
   text-align: left;
 }
@@ -717,7 +733,8 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
   color: rgba(0, 152, 182);
 }
 
@@ -755,15 +772,17 @@ p {
   padding: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
+#portfolio .portfolio-item .portfolio-info .preview-link,
+#portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
-  top: calc(50% - 36px);
+  top: calc(30% - 36px);
   color: rgba(0, 152, 182);
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
+#portfolio .portfolio-item .portfolio-info .preview-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #cab89f;
 }
 
@@ -792,7 +811,10 @@ p {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -800,7 +822,10 @@ p {
   border: 1px solid rgba(0, 152, 182);
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: rgba(0, 152, 182);
 }
 
@@ -841,7 +866,6 @@ p {
   padding: 0;
 }
 
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -852,7 +876,7 @@ p {
 
 .contact-details {
   color: black;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   list-style: none;
   margin: 0;
@@ -875,9 +899,10 @@ p {
   font-size: 25px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -952,7 +977,6 @@ p {
   }
 }
 
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1008,12 +1032,11 @@ p {
 /** Width between 1200x to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
- 
- 
+
 /** Width between 992px to 1199px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
- @media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   /* Navbar */
   nav {
     padding: 10px 15px;
@@ -1041,11 +1064,15 @@ p {
   }
 
   #hero {
-    background: linear-gradient(70deg, rgba(2,0,36,1) 63%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(
+      70deg,
+      rgba(2, 0, 36, 1) 63%,
+      rgba(0, 212, 255, 1) 100%
+    );
     height: 100vh;
     width: 100%;
   }
-  
+
   #hero .hero-content {
     height: 100vh;
     text-align: left;
@@ -1054,7 +1081,7 @@ p {
     justify-content: center;
     flex-direction: column;
   }
-  
+
   .hero-content h1 {
     font-size: 90px;
     font-weight: 700;
@@ -1062,31 +1089,31 @@ p {
     text-transform: uppercase;
     color: #fff;
   }
-  
+
   .hero-content p {
     font-size: 30px;
     letter-spacing: 5px;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-family: "Orbitron" , sans-serif;
+    font-family: "Orbitron", sans-serif;
     text-transform: capitalize;
     color: #fff;
     font-weight: 500;
   }
-  
+
   .hero-content .list-social li {
     float: left;
     margin-right: 20px;
     padding-top: 40px;
   }
-  
+
   .hero-content .list-social li i {
     color: #fff;
     font-size: 25px;
   }
-  
+
   /* Watch */
-  
+
   .watch-container {
     border: 1px solid #fff;
     border-radius: 20px;
@@ -1095,44 +1122,42 @@ p {
     padding-left: 20px;
     width: 290px;
   }
-  
+
   #digital-clock {
     float: left;
     color: #fff;
-    font-family: 'alarm_clockregular';
+    font-family: "alarm_clockregular";
     padding: 20px 20px 20px 0px;
     font-size: 64px;
     text-align: left;
   }
-  
-      #second {
-        float: left;
-        color: rgb(138, 138, 138);
-        padding-top: 25px;
-        font-family: 'alarm_clockregular';
-        font-size: 40px;
-        text-align: left;
-      }
-      #period {
-        float: left;
-        color: rgb(138, 138, 138);
-        padding-top: 12px;
-        padding-left: 10px;
-        font-family: 'alarm_clockregular';
-        font-size: 20px;
-        text-align: left;
-      }
-  
+
+  #second {
+    float: left;
+    color: rgb(138, 138, 138);
+    padding-top: 25px;
+    font-family: "alarm_clockregular";
+    font-size: 40px;
+    text-align: left;
+  }
+  #period {
+    float: left;
+    color: rgb(138, 138, 138);
+    padding-top: 12px;
+    padding-left: 10px;
+    font-family: "alarm_clockregular";
+    font-size: 20px;
+    text-align: left;
+  }
+
   #date {
     color: rgb(138, 138, 138);
     padding-bottom: 20px;
     padding-left: 20px;
-    font-family: 'alarm_clockregular';
+    font-family: "alarm_clockregular";
     font-size: 50px;
     text-align: left;
   }
-  
-  
 
   /* About */
   .head-info .header-content .cmaster h1 {
@@ -1206,11 +1231,15 @@ p {
   }
 
   #hero {
-    background: linear-gradient(70deg, rgba(2,0,36,1) 63%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(
+      70deg,
+      rgba(2, 0, 36, 1) 63%,
+      rgba(0, 212, 255, 1) 100%
+    );
     height: 100vh;
     width: 100%;
   }
-  
+
   #hero .hero-content {
     height: 100vh;
     text-align: left;
@@ -1219,7 +1248,7 @@ p {
     justify-content: center;
     flex-direction: column;
   }
-  
+
   .hero-content h1 {
     font-size: 50px;
     font-weight: 700;
@@ -1227,31 +1256,31 @@ p {
     text-transform: uppercase;
     color: #fff;
   }
-  
+
   .hero-content p {
     font-size: 25px;
     letter-spacing: 3px;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-family: "Orbitron" , sans-serif;
+    font-family: "Orbitron", sans-serif;
     text-transform: capitalize;
     color: #fff;
     font-weight: 500;
   }
-  
+
   .hero-content .list-social li {
     float: left;
     margin-right: 20px;
     padding-top: 40px;
   }
-  
+
   .hero-content .list-social li i {
     color: #fff;
     font-size: 25px;
   }
-  
+
   /* Watch */
-  
+
   .watch-container {
     border: 1px solid #fff;
     border-radius: 20px;
@@ -1260,44 +1289,42 @@ p {
     padding-left: 20px;
     width: 290px;
   }
-  
+
   #digital-clock {
     float: left;
     color: #fff;
-    font-family: 'alarm_clockregular';
+    font-family: "alarm_clockregular";
     padding: 20px 20px 20px 0px;
     font-size: 64px;
     text-align: left;
   }
-  
-      #second {
-        float: left;
-        color: rgb(138, 138, 138);
-        padding-top: 25px;
-        font-family: 'alarm_clockregular';
-        font-size: 40px;
-        text-align: left;
-      }
-      #period {
-        float: left;
-        color: rgb(138, 138, 138);
-        padding-top: 12px;
-        padding-left: 10px;
-        font-family: 'alarm_clockregular';
-        font-size: 20px;
-        text-align: left;
-      }
-  
+
+  #second {
+    float: left;
+    color: rgb(138, 138, 138);
+    padding-top: 25px;
+    font-family: "alarm_clockregular";
+    font-size: 40px;
+    text-align: left;
+  }
+  #period {
+    float: left;
+    color: rgb(138, 138, 138);
+    padding-top: 12px;
+    padding-left: 10px;
+    font-family: "alarm_clockregular";
+    font-size: 20px;
+    text-align: left;
+  }
+
   #date {
     color: rgb(138, 138, 138);
     padding-bottom: 20px;
     padding-left: 20px;
-    font-family: 'alarm_clockregular';
+    font-family: "alarm_clockregular";
     font-size: 50px;
     text-align: left;
   }
-  
-  
 
   /* About */
   .head-info .header-content .cmaster h1 {
@@ -1378,7 +1405,7 @@ p {
     text-transform: uppercase;
     color: #fff;
   }
-  
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -1522,16 +1549,18 @@ p {
 
   /* Hero */
   .hero-content {
-    background: linear-gradient(70deg, rgba(2,0,36,1) 50%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(
+      70deg,
+      rgba(2, 0, 36, 1) 50%,
+      rgba(0, 212, 255, 1) 100%
+    );
   }
-
 
   .hero-content h1 {
     font-size: 29px;
     font-weight: 700;
     margin-bottom: 10px;
     text-align: center;
-
   }
 
   .hero-content p {
@@ -1552,14 +1581,14 @@ p {
     margin-right: 10px;
     padding-top: 30px;
   }
-  
+
   .hero-content .list-social li i {
     color: #fff;
     font-size: 20px;
   }
-  
+
   /* Watch */
-  
+
   .watch-container {
     border: 1px solid #fff;
     border-radius: 20px;
@@ -1573,30 +1602,29 @@ p {
     left: 0;
     right: 0;
     text-align: center;
-
   }
-  
+
   #digital-clock {
     float: left;
     padding: 10px 10px 10px 0px;
     font-size: 50px;
     text-align: center;
   }
-  
-      #second {
-        float: left;
-        padding-top: 13px;
-        font-size: 32px;
-      }
-      #period {
-        float: left;
-        padding-top: 12px;
-        padding-left: 5px;
-        padding-bottom: 20px;
-        font-size: 17px;
-        text-align: center;
-      }
-  
+
+  #second {
+    float: left;
+    padding-top: 13px;
+    font-size: 32px;
+  }
+  #period {
+    float: left;
+    padding-top: 12px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    text-align: center;
+  }
+
   #date {
     color: rgb(138, 138, 138);
     padding-bottom: 20px;
@@ -1608,7 +1636,6 @@ p {
   .date-container i {
     padding: 20px 0px 20px 20px;
   }
-
 
   /* About */
   .head-info .header-content h1 {
@@ -1682,16 +1709,18 @@ p {
 
   /* Hero */
   .hero-content {
-    background: linear-gradient(70deg, rgba(2,0,36,1) 50%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(
+      70deg,
+      rgba(2, 0, 36, 1) 50%,
+      rgba(0, 212, 255, 1) 100%
+    );
   }
-
 
   .hero-content h1 {
     font-size: 27px;
     font-weight: 700;
     margin-bottom: 10px;
     text-align: center;
-
   }
 
   .hero-content p {
@@ -1712,14 +1741,14 @@ p {
     margin-right: 40px;
     padding-top: 30px;
   }
-  
+
   .hero-content .list-social li i {
     color: #fff;
     font-size: 20px;
   }
-  
+
   /* Watch */
-  
+
   .watch-container {
     border: 1px solid #fff;
     border-radius: 20px;
@@ -1735,25 +1764,25 @@ p {
     right: 0;
     text-align: center;
   }
-  
+
   #digital-clock {
     float: left;
     padding: 10px 10px 10px 0px;
     font-size: 40px;
   }
-  
-      #second {
-        float: left;
-        padding-top: 10px;
-        font-size: 30px;
-      }
-      #period {
-        float: left;
-        padding-top: 12px;
-        padding-left: 10px;
-        font-size: 17px;
-      }
-  
+
+  #second {
+    float: left;
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  #period {
+    float: left;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 17px;
+  }
+
   #date {
     color: rgb(138, 138, 138);
     padding-bottom: 20px;
