@@ -1575,11 +1575,11 @@ p {
 
   .hero-content .list-social {
     position: relative;
-    left: 38.5%;
+    left: calc(50% - 70px);
   }
 
   .hero-content .list-social li {
-    margin-right: 10px;
+    margin-right: 20px;
     padding-top: 30px;
   }
 
@@ -1735,11 +1735,11 @@ p {
 
   .hero-content .list-social {
     position: relative;
-    left: 21.6%;
+    left: calc(50% - 70px);
   }
 
   .hero-content .list-social li {
-    margin-right: 40px;
+    margin-right: 20px;
     padding-top: 30px;
   }
 
